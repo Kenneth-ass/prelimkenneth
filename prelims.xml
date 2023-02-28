@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tourist_spot>
+    <top5_in_the_world>
+        <name>Eiffel Tower</name>
+        <name>The Colosseum</name>
+        <name>Statue of Liberty</name>
+        <name>Machu Picchu</name>
+        <name>The Acropolis</name>
+    </top5_in_the_world>
+    <name>Eiffel Tower</name>
+        <location>Paris, France</location>
+        <description>The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris, France. It is one of the most recognizable landmarks in the world and a symbol of Paris.</description>
+        <activities>
+            <activity>Sightseeing</activity>
+            <activity>Photography</activity>
+            <activity>Dining</activity>
+        </activities>
+    <statue_of_liberty>
+        <name>Statue of Liberty</name>
+        <location>New York, USA</location>
+        <description>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor within New York City, in the United States. The statue, designed by Frédéric Auguste Bartholdi and dedicated on October 28, 1886, was a gift to the United States from the people of France.</description>
+        <dimensions>
+            <height>305 feet</height>
+            <base_width>65 feet</base_width>
+            <weight>225 tons</weight>
+        </dimensions>
+        <construction>
+            <architect>Gustave Eiffel</architect>
+            <builder>Bartholdi</builder>
+            <year>1886</year>
+        </construction>
+        <symbolism>
+            <torch>The torch symbolizes enlightenment and hope.</torch>
+            <book>The book held by the statue symbolizes knowledge and education.</book>
+            <crown>The seven spikes on the crown represent the seven seas and continents of the world.</crown>
+        </symbolism>
+    </statue_of_liberty>
+    <colosseum>
+        <name>Colosseum</name>
+        <location>Rome, Italy</location>
+        <yearBuilt>80 AD</yearBuilt>
+        <architect>Flavian Dynasty</architect>
+        <capacity>50,000</capacity>
+        <dimensions>
+            <length>189 meters</length>
+            <width>156 meters</width>
+            <height>50 meters</height>
+        </dimensions>
+        <features>
+            <undergroundHypogeum>true</undergroundHypogeum>
+            <arenaFloor>wooden boards covered in sand</arenaFloor>
+            <perimeterWall>arches and columns</perimeterWall>
+        </features>
+        <events>
+            <event>
+            <name>Gladiatorial Games</name>
+                <frequency>Several times a year</frequency>
+                <participants>Gladiators</participants>
+            </event>
+            <event>
+                <name>Animal Hunts</name>
+                <frequency>Several times a year</frequency>
+                <participants>Wild animals and sometimes criminals</participants>
+                </event>
+        </events>
+    </colosseum>
+    <machu_picchu>
+        <name>Machu Picchu</name>
+        <location>Peru</location>
+        <description>Machu Picchu is an ancient Incan city in the Andes Mountains of Peru. It is known for its well-preserved ruins and its spectacular location on a steep ridge overlooking the Urubamba River.</description>
+        <history>
+            <built_by>Inca civilization</built_by>
+            <built_year>15th century</built_year>
+            <abandoned_year>16th century</abandoned_year>
+        </history>
+        <architecture>
+            <style>Incan</style>
+            <structure_type>City and fortress</structure_type>
+            <notable_features>Terraces, temples, and palaces</notable_features>
+        </architecture>
+        <nature>
+            <altitude>7,970 ft (2,430 m)</altitude>
+            <surrounding_environment>Cloud forest</surrounding_environment>
+            <wildlife>Llamas, alpacas, spectacled bears, and various bird species</wildlife>
+        </nature>
+        <tourism>
+            <visitor_count>1.5 million per year</visitor_count>
+            <accessibility>Accessible by train and hiking trails</accessibility>
+            <notable_features>Sun Gate, Temple of the Sun, and Intihuatana Stone</notable_features>
+        </tourism>
+    </machu_picchu>
+    <acropolis>
+        <location>
+            <city>Athens</city>
+            <country>Greece</country>
+        </location>
+        <history>
+            <constructionDate>447 BC</constructionDate>
+            <architects>
+            <architect>Phidias</architect>
+            <architect>Ictinus</architect>
+            <architect>Callicrates</architect>
+            </architects>
+        </history>
+        <structures>
+            <structure>
+                <name>Parthenon</name>
+                <type>Temple</type>
+                <constructionDate>447 BC</constructionDate>
+            </structure>
+            <structure>
+                <name>Erechtheion</name>
+                <type>Temple</type>
+            <constructionDate>421 BC</constructionDate>
+            </structure>
+            <structure>
+                <name>Propylaea</name>
+                <type>Gate</type>
+                <constructionDate>437 BC</constructionDate>
+            </structure>
+        </structures>
+    </acropolis>
+    <Philippines>
+        <boracay>
+            <island>
+                <name>Boracay Island</name>
+                <location>Western Visayas, Philippines</location>
+                <area>10.32 km²</area>
+                <population>12,003 (2015)</population>
+            </island>
+            <beaches>
+                <beach>
+                    <name>White Beach</name>
+                    <location>Balabag, Malay, Aklan, Philippines</location>
+                    <length>4 km</length>
+                    <description>A stunning beach with powdery white sand and clear blue waters. It is divided into three stations, each with its own character and charm.</description>
+                </beach>
+                <beach>
+                    <name>Bulabog Beach</name>
+                    <location>Balabag, Malay, Aklan, Philippines</location>
+                    <length>2.5 km</length>
+                    <description>A popular spot for kiteboarding and windsurfing due to its strong winds. It is also a great place to watch the sunrise.</description>
+                </beach>
+            </beaches>
+            <activities>
+                <activity>
+                    <name>Island Hopping</name>
+                    <description>Explore the nearby islands of Boracay, such as Crystal Cove Island, Crocodile Island, and Puka Beach Island.</description>
+                </activity>
+                <activity>
+                    <name>Scuba Diving</name>
+                    <description>Discover the diverse marine life and coral reefs around Boracay, with options for beginners and experienced divers.</description>
+                </activity>
+            </activities>
+        </boracay>
+    </Philippines>
+</tourist_spot>
